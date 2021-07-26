@@ -1,0 +1,1 @@
+import agecheck from '../index';
