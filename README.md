@@ -2,9 +2,9 @@
 **A dirt simple way to validate users and stay compliant worldwide.**
 
 ## Installation
-`npm install agecheck`
+`npm install @lunardesign/agecheck`
 or
-`yarn add agecheck`
+`yarn add @lunardesign/agecheck`
 
 ## Usage
 ```js
