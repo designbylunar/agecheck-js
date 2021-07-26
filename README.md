@@ -10,7 +10,7 @@ or
 ```js
 import agecheck from 'agecheck'
 
-console.log(agecheck(13, 'us;));
+console.log(agecheck(13, 'us'));
 ```
 
 ## Acknoledgements
