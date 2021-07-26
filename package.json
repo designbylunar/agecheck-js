@@ -1,8 +1,8 @@
 {
-  "name": "agecheck",
+  "name": "@lunardesign/agecheck",
   "version": "1.0.0",
   "description": "A dirt simple way to validate users and stay compliant worldwide.",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "repository": "https://github.com/designbylunar/agecheck-js",
   "author": "The Lunar Design Team <npm@lunardesign.org>",
   "license": "MIT",
