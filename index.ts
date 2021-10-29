@@ -6,12 +6,12 @@ export default function agecheck(age: number, country: string): boolean {
         return false;
     } // Ensure country code is two characters long
 
-    if (!countries.hasOwnProperty(country)) {
+    if (!countries.hasOwnProperty(country) && age >= 13) {
         console.warn('[WARN] User\'s country is not in our database, but user is over 13. Proceed with caution as laws may apply that we are not aware of.');
+        return true;
     }
 
-    var countryAge = countries[country] ?? 13;
-    if (age >= countryAge) {
+    if (age >= countries[country]) {
       return true;
     } else {
       return false;
